@@ -11,3 +11,199 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.rock {
+  background-color: #c0a43c;
+}
+.ghost {
+  background-color: #785c9c;
+}
+.electric {
+  background-color: #ffd434;
+}
+.bug {
+  background-color: #b0bc24;
+}
+.poison {
+  background-color: #a844a4;
+}
+.normal {
+  background-color: #b0ac7c;
+}
+.fairy {
+  background-color: #f09cac;
+}
+.fire {
+  background-color: #f88434;
+}
+.grass {
+  background-color:#80cc54;
+}
+.water {
+  background-color:#7094f4;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 3rem 0.5rem;
+}
+.pokemon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.all-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.thumb-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 0 ;
+  margin: 0.3rem;
+  border: 1px solid black;
+  border-radius: 0.2rem;
+  min-width: 160px;
+  text-align: center;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.089);
+}
+h3 {
+  margin-bottom: 0.2rem;
+}
+.thumb-container .number {
+  border-radius: 1rem;
+  padding: 0.2rem 0.4rem;
+  background-color: rgba(255,255,255,0.3);
+}
+.thumb-container img {
+  width: 120px;
+  height: 120px;
+}
+.thumb-container small {
+  text-transform: capitalize;
+}
+.detail-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.detail-wrapper button {
+  color: rgb(22, 22, 22);
+  padding: .5rem;
+  margin-top: 1rem;
+  border: none;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.185);
+}
+.load-more {
+  background: #f5f5f5 linear-gradient(#f5f5f5,#f1f1f1) repeat-x;
+  border-radius: 2px;
+  border: 1px solid #c6c6c6;
+  color: #444;
+  padding: 0.5rem 1.5rem;
+  min-width: 50%;
+  margin-top: 1rem;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  width: 100%; 
+  height: 1000%;
+}
+
+.modal {
+  max-width: 1200px;
+  width: 100%;
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.75);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.modal td {
+  padding-left: 10px;
+}
+
+.pokemon-number {
+  text-align: center;
+  padding-top: 10px;
+  font-weight: bold;
+}
+
+.pokemon-name {
+  text-align: center;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+.modal-center{
+  max-width: 400px;
+  padding-left: 1em;
+}
+
+.training-container {
+  padding-top: 4em;
+}
+
+.modal-right {
+  padding-left: 1em;
+}
+
+.close-btn {
+  position: absolute;
+  right: 0em;
+  text-align: center;
+  border: none;
+  font-size: 16px;
+}
+
+.rock-portrait{
+  background-image: linear-gradient(#c0a43c, white);
+}
+.ghost-portrait{
+  background-image: linear-gradient(#785c9c, white);
+}
+.electric-portrait{
+  background-image: linear-gradient(#ffd434, white);
+}
+.bug-portrait{
+  background-image: linear-gradient(#b0bc24, white);
+}
+.poison-portrait{
+  background-image: linear-gradient(#a844a4, white);
+}
+.normal-portrait{
+  background-image: linear-gradient(#b0ac7c, white);
+}
+.fairy-portrait{
+  background-image: linear-gradient(#f09cac, white);
+}
+.fire-portrait{
+  background-image: linear-gradient(#f88434, white);
+}
+.grass-portrait{
+  background-image: linear-gradient(#80cc54, white);
+}
+.water-portrait{
+  background-image: linear-gradient(#7094f4, white);
+}
+
+.portrait-frame {
+  margin: 10px;
+  border: 1px solid black;
+}
